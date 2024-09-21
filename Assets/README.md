@@ -27,7 +27,7 @@ The dataset itself is available for download at the [Kaggle](https://www.kaggle.
 Some sample images from the dataset:<br />
 
 
-![Sample Images](https://github.com/ShamsNafisaAli/Monkeypox-Skin-Lesion-Dataset-v2/blob/main/Assets/samples.jpg)
+![Sample Images](https://github.com/Priyadhaila01/monkeyoox-skin-lesion2.0/blob/main/Assets/samples%20(1).jpg)
 
 
 * * *
@@ -87,7 +87,8 @@ Since we intend to build an end to end solution - starting with dataset creation
 
 The codes required to build and train the model, all the javascript, css and html files as well as the trained model will be made opem-source soon. The app's dynamic and future updates will incorporate the ability to store user data and use them to train the model realtime.<br />
 
-![Sample Images](https://github.com/ShamsNafisaAli/Monkeypox-Skin-Lesion-Dataset-v2/blob/main/Assets/app_int_dark.png)
+![Sample Images](https://github.com/Priyadhaila01/monkeyoox-skin-lesion2.0/blob/main/Assets/app_int_dark.png
+)
 
 * * *
 
@@ -104,11 +105,9 @@ Ahmed, M. T., Paul, J., Jahan, T., Ali, S. N., Sani,  S. M. Sakeef, Noor, N., As
   year={2023}<br />
 }
 
-Ali, S. N., Ahmed, M. T., Jahan, T., Paul, J., Sani, S. M. Sakeef, Noor, N., Asma, A. N., & Hasan, T. (2024). [A Web-based Mpox Skin Lesion Detection System Using State-of-the-art Deep Learning Models Considering Racial Diversity.](https://doi.org/10.1016/j.bspc.2024.106742) Biomedical Signal Processing and Control, 98, 106742.
-
->@article{Ali2024,<br />
+>@article{Priyadhaila2024,<br />
   title={A Web-based Mpox Skin Lesion Detection System Using State-of-the-art Deep Learning Models Considering Racial Diversity},<br />
-  author={Ahmed, Md. Tazuddin and Paul, Joydip  and Jahan, Tasnim and Ali, Shams Nafisa and Sani,  S. M. Sakeef and Noor, Nawshaba and Asma,     Anzirun Nahar and Hasan, Taufiq},<br />
+  author={Priya Dhaila , Sakshii Bhatt and Saumya Garg},<br />
   journal={Biomedical Signal Processing and Control},<br />
   volume={98},<br />
   pages={106742},<br />
