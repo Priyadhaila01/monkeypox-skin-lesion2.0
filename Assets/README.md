@@ -13,7 +13,7 @@ Nevertheless, no such datasets were available initially. Realizing the significa
 Graphical representation of our intended working pipeline:<br />
 
 
-![Working pipeline](https://github.com/ShamsNafisaAli/Monkeypox-Skin-Lesion-Dataset-v2/blob/main/Assets/GA_aug.JPG)
+![Working pipeline](https://github.com/Priyadhaila01/monkeyoox-skin-lesion2.0/blob/main/Assets/GA_aug.JPG)
 
 * * *
 
