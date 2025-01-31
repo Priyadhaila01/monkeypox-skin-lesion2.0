@@ -3,9 +3,9 @@
 
 ![License](https://github.com/Priyadhaila01/monkeyoox-skin-lesion2.0/blob/main/Assets/cc.JPG)
 
-The global outbreak of the virus previously called 'Monkeypox', now referred to as mpox, has caused widespread concern over the past year and continued to be a major topic in public health news headlines. During the peak transmission period back in July 2022, the World Health Organization (WHO) declared it a Public Health Emergency of International Concern (PHEIC). To obstruct its expeditious pace, early diagnosis was a must at that time. In that scenario, computer-aided monkeypox identification from skin lesion images could be a beneficial measure.
+The global outbreak of the virus previously called 'Monkeypox', now referred to as mpox, has caused widespread concern over the past year and continued to be a major topic in public health news headlines. During the peak transmission period back in July 2022, the World Health Organization (WHO) declared it a Public Health Emergency of International Concern (PHEIC). To obstruct its expeditious pace, early diagnosis was crucial at that time. In that scenario, computer-aided monkeypox identification from skin lesion images could be a beneficial measure.
 
-Nevertheless, no such datasets were available initially. Realizing the significance of instant release of such a dataset, we then pineered the creation of the ["Moneypox Skin Lesion Dataset (MSLD)"]() by collecting and processing 'monkeypox' and 'non-monkeypox' (measles, chickenpox)images from different means of web-scrapping i.e., from news portals, websites and publicly accessible case reports. Now that the cases have come under control, ensuring the clinical soundness of the data through expert verification and feedback incorporation is crucial for developing effective algorithms to tackle any future cases of monkeypox or diseases with similar skin lesions. Therefore, we introduce an updated version, ["Mpox Skin Lesion Dataset Version 2.0 (MSLD v2.0)"](https://www.kaggle.com/datasets/joydippaul/mpox-skin-lesion-dataset-version-20-msld-v20). Instead of placing the non-mpox cases in a single class, we have added definite class labels such as, chickenpox, measles, cowpox, hand-foot-mouth disease, and healthy. 
+Nevertheless, no such datasets were available initially. Realizing the significance of the instant release of such a dataset, we pioneered the creation of the "Monkeypox Skin Lesion Dataset (MSLD)" by collecting and processing 'monkeypox' and 'non-monkeypox' (measles, chickenpox) images from different web-scraping sources, including news portals, websites, and publicly accessible case reports. Now that the cases have come under control, ensuring the clinical soundness of the data through expert verification and feedback incorporation is crucial for developing effective algorithms to tackle any future cases of monkeypox or diseases with similar skin lesions. Therefore, we introduce an updated version, "Mpox Skin Lesion Dataset Version 2.0 (MSLD v2.0)". Instead of placing the non-mpox cases in a single class, we have added distinct class labels such as chickenpox, measles, cowpox, hand-foot-mouth disease, and healthy.
 
 
 <!--The recent monkeypox outbreak has become a global healthcare concern owing to its rapid spread in more than 65 countries around the globe.  But the confirmatory Polymerase Chain Reaction (PCR) tests and other biochemical assays are not readily available in suffiecient quantities. --> <br />
@@ -18,8 +18,7 @@ Graphical representation of our intended working pipeline:<br />
 * * *
 
 # Contents
-
-This repository gives access to the Mpox Skin Lesion Dataset Version 2.0 (MSLD v2.0). The creation of this dataset is primarily focused on distinguishing the monkeypox cases from the similar non-monkeypox cases. Therefore, along with the 'Monkeypox' class, we included skin lesion images of 4 other disease classes (and the healthy class) because of their resemblance to the monkeypox rash and pustules in initial state. These classes can be put together in to perform binary classification or we can use them for performing differential diagnosis via multi-class classification.<br />
+This repository gives access to the Mpox Skin Lesion Dataset Version 2.0 (MSLD v2.0). The creation of this dataset is primarily focused on distinguishing monkeypox cases from similar non-monkeypox cases. Therefore, along with the 'Monkeypox' class, we included skin lesion images from four other disease classes (and the healthy class) because of their resemblance to the monkeypox rash and pustules in their initial state. These classes can be used either for binary classification or for performing differential diagnosis via multi-class classification.<br />
 
 The dataset itself is available for download at the [Kaggle](https://www.kaggle.com/datasets/joydippaul/mpox-skin-lesion-dataset-version-20-msld-v20) or the [Google Drive](https://drive.google.com/drive/folders/1_bGmbDQNgJViQenjZ4QUhhzpdiubga48?usp=sharing).<br />
 
@@ -93,26 +92,83 @@ The codes required to build and train the model, all the javascript, css and htm
 
 # Citation
 
-If this dataset helped your research, please cite the following [papers](https://arxiv.org/abs/2207.03342):<br />
 
-Ahmed, M. T., Paul, J., Jahan, T., Ali, S. N., Sani,  S. M. Sakeef, Noor, N., Asma, A. N., & Hasan, T. (2023). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study. arXiv preprint arXiv:xxxx.xxxxx.
+To update the README file for your research paper, I will incorporate the names of the authors and adjust the text to reflect the paper's authorship and other necessary changes. Here's how you can update it:
 
->@article{Ahmed2023,<br />
-  title={A Study on Mpox Skin Lesion Detection Using State-of-the-art Deep Learning Models},<br />
-  author={Ahmed, Md. Tazuddin and Paul, Joydip  and Jahan, Tasnim and Ali, Shams Nafisa and Sani,  S. M. Sakeef and Noor, Nawshaba and Asma,     Anzirun Nahar and Hasan, Taufiq},<br />
-  journal={arXiv preprint arXiv:xxxx.xxxxx},<br />
-  year={2023}<br />
-}
+Mpox Skin Lesion Dataset Version 2.0 (MSLD v2.0)
+Expanded Mpox Skin Lesion Dataset: 6 Distinct Classes for Robust Classification Benchmarking
+Authors:
+Priya Dhaila
+Sakshi
+Simran
+License
+The global outbreak of the virus previously called 'Monkeypox', now referred to as mpox, has caused widespread concern over the past year and continued to be a major topic in public health news headlines. During the peak transmission period back in July 2022, the World Health Organization (WHO) declared it a Public Health Emergency of International Concern (PHEIC). To obstruct its expeditious pace, early diagnosis was crucial at that time. In that scenario, computer-aided monkeypox identification from skin lesion images could be a beneficial measure.
 
-Ali, S. N., Ahmed, M. T., Jahan, T., Paul, J., Sani, S. M. Sakeef, Noor, N., Asma, A. N., & Hasan, T. (2024). [A Web-based Mpox Skin Lesion Detection System Using State-of-the-art Deep Learning Models Considering Racial Diversity.](https://doi.org/10.1016/j.bspc.2024.106742) Biomedical Signal Processing and Control, 98, 106742.
+Nevertheless, no such datasets were available initially. Realizing the significance of the instant release of such a dataset, we pioneered the creation of the "Monkeypox Skin Lesion Dataset (MSLD)" by collecting and processing 'monkeypox' and 'non-monkeypox' (measles, chickenpox) images from different web-scraping sources, including news portals, websites, and publicly accessible case reports. Now that the cases have come under control, ensuring the clinical soundness of the data through expert verification and feedback incorporation is crucial for developing effective algorithms to tackle any future cases of monkeypox or diseases with similar skin lesions. Therefore, we introduce an updated version, "Mpox Skin Lesion Dataset Version 2.0 (MSLD v2.0)". Instead of placing the non-mpox cases in a single class, we have added distinct class labels such as chickenpox, measles, cowpox, hand-foot-mouth disease, and healthy.
 
->@article{Ali2024,<br />
-  title={A Web-based Mpox Skin Lesion Detection System Using State-of-the-art Deep Learning Models Considering Racial Diversity},<br />
-  author={Ahmed, Md. Tazuddin and Paul, Joydip  and Jahan, Tasnim and Ali, Shams Nafisa and Sani,  S. M. Sakeef and Noor, Nawshaba and Asma,     Anzirun Nahar and Hasan, Taufiq},<br />
-  journal={Biomedical Signal Processing and Control},<br />
-  volume={98},<br />
-  pages={106742},<br />
-  year={2024},<br />
-  publisher={Elsevier}<br />
-}
+Graphical Representation of Our Intended Working Pipeline:
+[Insert working pipeline image here]
+
+Contents
+This repository gives access to the Mpox Skin Lesion Dataset Version 2.0 (MSLD v2.0). The creation of this dataset is primarily focused on distinguishing monkeypox cases from similar non-monkeypox cases. Therefore, along with the 'Monkeypox' class, we included skin lesion images from four other disease classes (and the healthy class) because of their resemblance to the monkeypox rash and pustules in their initial state. These classes can be used either for binary classification or for performing differential diagnosis via multi-class classification.
+
+The dataset is available for download via Kaggle or Google Drive.
+
+Some Sample Images from the Dataset:
+[Insert sample images here]
+
+Dataset Description
+The dataset contains a total of 755 images from 541 unique patients. The class distribution is as follows:
+
+Class label	No. of Original Images	No. of Unique Patients
+Mpox	284	143
+Chickenpox	75	62
+Measles	55	46
+Cowpox	66	41
+Hand, foot, and mouth disease	161	144
+Healthy	114	105
+Total	755	541
+There are two folders in the dataset:
+
+Original Images: This folder includes a subfolder named "FOLDS" containing five folds (fold1-fold5) for 5-fold cross-validation with the original images. Each fold has separate folders for the test, train, and validation sets.
+
+Augmented Images: To aid the classification task, several data augmentation methods such as rotation, translation, reflection, shear, hue, saturation, contrast, brightness jitter, noise, scaling, etc., have been applied using MATLAB R2020a. The augmented images are provided in this folder, and it contains a subfolder called "FOLDS_AUG" with augmented images of the train sets from each fold in the "FOLDS" subfolder of the "Original Images." The augmentation process resulted in an approximate 14-fold increase in the number of images.
+
+Naming Convention of the Images
+Each image is named following the format: DiseaseCode_PatientNumber_ImageNumber.
+
+The corresponding disease codes assigned to each of the six disease classes are:
+
+Mpox -> MKP
+Chickenpox -> CHP
+Cowpox -> CWP
+Measles -> MSL
+Hand, foot, and mouth disease -> HFMD
+Healthy -> HEALTHY
+For example, an image named "MKP_17_01" indicates that it belongs to the Mpox class and is the first image captured from a patient with the ID 17.
+
+Data Organization
+The dataset includes an Excel file named "datalog.xlsx" with five sheets (Sheet1-5), each corresponding to a specific fold (fold1-5). Each sheet contains three columns: train, validation, and test. These columns contain the names of the images belonging to the respective train, validation, and test sets for a particular fold.
+
+Provenance
+Sources
+The images for MSLD v2.0 were sourced in a similar manner to the previous version, using web-scraping from trusted sources such as reputable news portals, websites, and academic journals. Copyright considerations were respected and appropriate protocols were followed to safeguard intellectual property rights.
+
+Collection Methodology
+In MSLD v2.0, a two-step verification process was employed to ensure the quality and reliability of the images:
+
+Reverse Image Search: We used reverse image search tools to cross-reference the sources and verify the authenticity of each image.
+Professional Dermatologist Verification: Each image was scrutinized by a professional dermatologist to ensure accuracy and eliminate mislabeling or difficult-to-interpret images.
+Web Application
+We have developed a prototype of a web application using the open-source Python Streamlit framework with Flask as the core. The application, called the Skin Lesion Detector, is hosted on the Streamlit server and allows users to receive both the predicted disease label and the accuracy of the prediction.
+
+The code to build and train the model, along with the necessary web files (JavaScript, CSS, and HTML), will be made open-source soon. Future updates to the app will include the ability to store user data and use it for real-time model training.
+
+Citation
+If this dataset helped your research, please cite the following papers:
+
+Ahmed, M. T., et al. (2023). "Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study." arXiv preprint arXiv:xxxx.xxxxx.
+
+Ali, S. N., et al. (2024). "A Web-based Mpox Skin Lesion Detection System Using State-of-the-art Deep Learning Models Considering Racial Diversity." Biomedical Signal Processing and Control, 98, 106742.
+
 
